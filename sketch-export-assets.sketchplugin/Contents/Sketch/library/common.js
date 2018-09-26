@@ -43,13 +43,13 @@ com.geertwille = {
         }
 
         // Open finder window with assets exported
-        if (config['open-folder-export'] == true) {
+        // if (config['open-folder-export'] == true) {
             if (this.baseDir.indexOf('/res') > -1 && this.type == "android") {
                 helpers.openInFinder(this.baseDir);
             } else {
                 helpers.openInFinder(this.baseDir + "/assets");
             }
-        }
+        // }
     },
 
     alert: function(msg) {
