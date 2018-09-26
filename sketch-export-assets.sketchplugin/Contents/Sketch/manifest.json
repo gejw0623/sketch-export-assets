@@ -50,12 +50,6 @@
                 "identifier": "export-assets-android-mipmap",
                 "shortcut": "ctrl alt shift 7",
                 "script": "Export Android MIPMAP Assets.sketchscript"
-            },
-            {
-                "name": "Change Settings",
-                "identifier": "change-settings",
-                "shortcut": "ctrl alt shift 8",
-                "script": "Change Settings.sketchscript"
             }
         ],
     "menu":
