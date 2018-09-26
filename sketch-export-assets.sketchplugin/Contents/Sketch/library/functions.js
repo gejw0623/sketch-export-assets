@@ -61,8 +61,8 @@ var readPluginPath = function() {
 }
 
 var openInFinder = function(path) {
-    var finderTask = [[NSTask alloc] init],
-        openFinderArgs = [NSArray arrayWithObjects:"-R", path, nil];
+    var finderTask = [[NSTask alloc] init];
+    var openFinderArgs = [NSArray arrayWithObject:path];
 
     [finderTask setLaunchPath:"/usr/bin/open"];
     [finderTask setArguments:openFinderArgs];
